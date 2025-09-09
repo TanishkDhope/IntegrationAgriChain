@@ -277,4 +277,4 @@ async function getCurrentChain(client) {
   return currentChain;
 }
 
-export { mint, getUserTokens, transferTokens, getTxnHistory, connect };
+export { mint, getUserTokens, transferTokens, getTxnHistory, connect,getCurrentChain };

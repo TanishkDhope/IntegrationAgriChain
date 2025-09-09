@@ -25,7 +25,7 @@ function Tokens() {
     console.log(result);
     setTokens(result);
   };
-
+  
   const handleConnect = async () => {
     const acc = await connect();
 
